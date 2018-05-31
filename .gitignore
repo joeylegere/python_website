@@ -1,0 +1,10 @@
+**/*.pyc
+**/.ipynb_checkpoints
+autograder/*
+!autograder/*.py
+venv/
+logs/
+.idea/
+grades.db
+uploads/
+old_content/

@@ -1,0 +1,16 @@
+
+<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="/static/scripts/jquery.min.js"></script>
+		<!--<script src="/static/script.js"></script> -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="/static/scripts/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="/static/scripts/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="/static/scripts/bootstrap.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="/static/custom.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+				<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>

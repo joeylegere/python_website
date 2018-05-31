@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Intro to Python</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">PSYCH 711/712: Introduction to Python</h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('outline') }}">Course Outline</a></li>
+              <li><a href="{{ url_for('content') }}">Content</a></li>
+              <li><a href="{{ url_for('upload') }}">Submit Assignments</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+    <div class="container">
+      {% for message in get_flashed_messages() %}
+            <br>{{ message }}</br>
+      {% endfor %}
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

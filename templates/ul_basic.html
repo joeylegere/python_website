@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+
+  <center>
+  <h2>Upload Assignments</h2>
+  </center>
+  <table border="0" cellspacing="0" width="100%">
+      <tr>
+          <td></td>
+
+          {% for message in get_flashed_messages() %}
+            <div class=flash>{{ message }}</div>
+          {% endfor %}
+
+          <td width="900">
+  <form action="" method="post" enctype=multipart/form-data>
+      <p align="left">Assignment #:
+          <select name=asst>
+          <option value="None"></option>
+          <option value="asst_1">Assignment 1</option>
+          <option value="asst_2">Assignment 2</option>
+          <option value="asst_3">Assignment 3</option>
+          <option value="asst_4">Assignment 4</option>
+          <option value="inclass_01">In-Class 1</option>
+          <option value="inclass_02">In-Class 2</option>
+          <option value="inclass_03">In-Class 3</option>
+          <option value="inclass_04">In-Class 4</option>
+          <option value="inclass_05">In-Class 5</option>
+          <option value="inclass_06">In-Class 6</option>
+          <option value="inclass_07">In-Class 7</option>
+          <option value="inclass_08">In-Class 8</option>
+          <option value="inclass_09">In-Class 9</option>
+          <option value="inclass_10">In-Class 10</option>
+          <option value="inclass_11">In-Class 11</option>
+          <option value="inclass_12">In-Class 12</option>
+          <option value="inclass_13">In-Class 13</option>
+          <option value="inclass_14">In-Class 14</option>
+          <option value="inclass_15">In-Class 15</option>
+          </select>
+
+          <p align="left">Your macid (not your student number):
+          <input type=text name=macid>
+
+          <p align="left">File:
+          <input type=file name=file>
+
+          <p align="left"><input type=submit value=Upload>
+
+          </td>
+          <td></td>
+  </form>
+
+</html>
+
+{% endblock %}

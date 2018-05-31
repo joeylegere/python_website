@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+<center>
+	<h2> Lessons</h2>
+	<table border="0" cellspacing="0" width="900">
+			<tr>
+					<td><b>Week</td>
+					<td><b>Topic</td>
+					<td><b>Material</td>
+			</tr>
+
+			<tr>
+				 <td>00</td>
+				 <td>Course Introduction</td>
+				 <td>
+					 <a href="/static/content/0_jupyter_installation.html">Jupyter Installation</a>
+					 <br><a href="/static/content/sample_notebook.ipynb" download>Sample Notebook</a>
+				 </td>
+
+				</tr>
+
+			<tr>
+				 <td>01</td>
+				 <td>Fundamentals</td>
+				 <td>
+					 <a href="/static/lessons/01_fundamentals_i_complete.ipynb">Lesson 1: Fundamentals I (Complete)</a>
+					 <br><a href="/static/lessons/01_fundamentals_ii.ipynb">Lesson 2: Fundamentals II (Complete)</a>
+				 </td>
+
+			</tr>
+
+			<tr>
+				 <td>02</td>
+				 <td>Functions, Collections</td>
+				 <td>
+					 <a href="/static/content/asst01.ipynb">Assignment 1 (Due June 5th)</a>
+					<br><a href="/static/lessons/02_indexing_functions_complete.ipynb">Lesson 3: Collections & Functions (Complete)</a>
+					 <br><a href="/static/lessons/02_lists_dicts_template.ipynb">Lesson 4: Collections Part II (Template)</a>
+				 </td>
+			</tr>
+
+
+	</table>
+</center>
+</html>
+
+{% endblock %}
